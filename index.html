@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Todo Application</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading">Todo App</div>
+        <ul>
+            <!-- <li><label class="text">Work<input type="checkbox" hidden class="radio"></label>
+                <button class="delete"onclick="deleteItem(this.parentElement.dataset.id)">X</button></li> -->
+        </ul>
+        <form id="addForm">
+            <input type="text" class="addInput" placeholder="Add Todo" name="ele" autocomplete="off">
+            <button class="addBtn">Add</button>
+        </form>
+        <button id="clearAll" class="clearAll">Clear All</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
